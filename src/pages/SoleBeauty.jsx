@@ -44,14 +44,14 @@ function Sole(){
 
       <div className="container sb-imgs">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-6">
             <figure>
               <img src={sbWeb} className="img-fluid" alt="New Sole Beauty Webpage"/>
               <figcaption>Homepage</figcaption>
             </figure>
           </div>
 
-          <div className="col-6">
+          <div className="col-12 col-sm-6">
             <figure>
               <img src={sbMob} className="img-fluid" alt="New Sole Beauty Webpage"/>
               <figcaption>Mobile</figcaption>
@@ -64,17 +64,21 @@ function Sole(){
         </div>
       </div>
 
-      <div className="row">
+      <div className="row" height="450px">
         <h3>Before/After</h3>
-        <div className="col-sm-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8YG7vzJPaNE?controls=0" 
+        <div className="col-12 col-sm-6">
+          <iframe src="https://www.youtube.com/embed/8YG7vzJPaNE?controls=0" 
                   title="YouTube video player" frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  width="100%"
+                  height="350px"
+                  allowfullscreen></iframe>
         </div>
-        <div className="col-sm-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/u52Plc3lBXg?controls=0" 
+        <div className="col-12 col-sm-6">
+          <iframe src="https://www.youtube.com/embed/u52Plc3lBXg?controls=0" 
                   title="YouTube video player" frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  width="100%"
+                  height="350px"
+                  allowfullscreen></iframe>
         </div>
       </div>
 
@@ -83,17 +87,19 @@ function Sole(){
         <p>Below, follows some examples of the marketing and design works that I've done for the company.</p>
 
         <div className="row">
-          <div className="col-4">
-            <iframe width="400" height="800" src="https://www.youtube.com/embed/BV5wRJzSJgk" 
+          <div className="col-12 col-sm-4">
+            <iframe src="https://www.youtube.com/embed/BV5wRJzSJgk" 
                     title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    height="50%"
+                    width="100%"
+                    allowfullscreen>
             </iframe>
             <figure>
               <img src={giveaway02} className="img-fluid" alt="Summer Offer ad"/>
             </figure>
           </div>
 
-          <div className="col-5">
+          <div className="col-12 col-sm-5">
             <figure>
               <img src={summerOffer} className="img-fluid" alt="Giveaway ad"/>
             </figure>
@@ -102,7 +108,7 @@ function Sole(){
             </figure>
           </div>    
 
-          <div className="col-3">
+          <div className="col-12 col-sm-3">
             <figure>
               <img src={wax01} className="img-fluid" alt="Giveaway ad"/>
             </figure>
