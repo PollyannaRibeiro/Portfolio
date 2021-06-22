@@ -4,7 +4,6 @@ function DevExperience(){
   return(
     <>
       <div className="container" id="dev-projects"> {/* container */}
-
         <div className="row">
           <h1>My not professional development experience</h1>
         </div>
