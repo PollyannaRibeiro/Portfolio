@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import './App.css';
-import '../src/pages/home.css';
+import '../src/assets/stylesheets/css/style.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home.jsx';

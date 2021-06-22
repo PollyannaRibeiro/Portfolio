@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import sbIcon from '../assets/img/designExpIcons/design-icons-SB.png';
 import ethosIcon from '../assets/img/designExpIcons/design-icons-ethos.png';
 import freelaIcon from '../assets/img/designExpIcons/design-icons-Freelas.png';
-import '../pages/home.css';
+import '../assets/stylesheets/css/style.css';
 
 function SkillsMenu(){
 

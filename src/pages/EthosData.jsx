@@ -1,16 +1,16 @@
 import React from 'react';
-import gifBanner from '../assets/ethos/img/Ad-banner.gif';
-import wallpaper01 from '../assets/ethos/img/wallpaper-facebook-option1.jpg';
-import wallpaper02 from '../assets/ethos/img/wallpaper-facebook-option2.jpg';
-import adM01 from '../assets/ethos/img/2018-ad-static-300x250-option1.jpg';
-import adM02 from '../assets/ethos/img/2018-ad-static-300x250-option2.jpg';
-import adM03 from '../assets/ethos/img/2018-ad-static-300x250-option3.jpg';
-import adS01 from '../assets/ethos/img/2018-ad-static-s-728X90-option1.jpg';
-import adS02 from '../assets/ethos/img/2018-ad-static-s-728x90-option2.jpg';
-import adS03 from '../assets/ethos/img/2018-ad-static-s-728x90-option3.jpg';
-import pdf01 from '../assets/ethos/pdf/case-Ap-Barcelona.png';
-import pdf02 from '../assets/ethos/pdf/case-OakNorth-Bank.png';
-import pdf03 from '../assets/ethos/pdf/Optimizar-un-proceso.png';
+import gifBanner from '../assets/portfolioPagesContent/ethos/img/Ad-banner.gif';
+import wallpaper01 from '../assets/portfolioPagesContent/ethos/img/wallpaper-facebook-option1.jpg';
+import wallpaper02 from '../assets/portfolioPagesContent/ethos/img/wallpaper-facebook-option2.jpg';
+import adM01 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-300x250-option1.jpg';
+import adM02 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-300x250-option2.jpg';
+import adM03 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-300x250-option3.jpg';
+import adS01 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-s-728X90-option1.jpg';
+import adS02 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-s-728x90-option2.jpg';
+import adS03 from '../assets/portfolioPagesContent/ethos/img/2018-ad-static-s-728x90-option3.jpg';
+import pdf01 from '../assets/portfolioPagesContent/ethos/pdf/case-Ap-Barcelona.png';
+import pdf02 from '../assets/portfolioPagesContent/ethos/pdf/case-OakNorth-Bank.png';
+import pdf03 from '../assets/portfolioPagesContent/ethos/pdf/Optimizar-un-proceso.png';
 
 function Ethos(){
   return(

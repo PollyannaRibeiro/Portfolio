@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import '../pages/home.css'
+import '../assets/stylesheets/css/style.css'
 import {
   Link
 } from "react-router-dom";

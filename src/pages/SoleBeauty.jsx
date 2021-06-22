@@ -1,12 +1,12 @@
 import React from 'react';
-import sbWeb from '../assets/sole/img/website/small/sb-small-01.jpg';
-import sbMob from '../assets/sole/img/website/small/sb-small-02.jpg';
-import salonPage from '../assets/sole/img/website/small/salon-page-streatham.png';
-import giveaway01 from '../assets/sole/img/insta/small/giveaway.png';
-import giveaway02 from '../assets/sole/img/insta/small/giveaway-2.png';
-import summerOffer from '../assets/sole/img/insta/small/summer-offer-01.jpg';
-import wax01 from '../assets/sole/img/vectors/waxing-combo-stories-s-01.png';
-import wax02 from '../assets/sole/img/vectors/waxing-combo-stories-s-2.png';
+import sbWeb from '../assets/portfolioPagesContent/sole/img/website/small/sb-small-01.jpg';
+import sbMob from '../assets/portfolioPagesContent/sole/img/website/small/sb-small-02.jpg';
+import salonPage from '../assets/portfolioPagesContent/sole/img/website/small/salon-page-streatham.png';
+import giveaway01 from '../assets/portfolioPagesContent/sole/img/insta/small/giveaway.png';
+import giveaway02 from '../assets/portfolioPagesContent/sole/img/insta/small/giveaway-2.png';
+import summerOffer from '../assets/portfolioPagesContent/sole/img/insta/small/summer-offer-01.jpg';
+import wax01 from '../assets/portfolioPagesContent/sole/img/vectors/waxing-combo-stories-s-01.png';
+import wax02 from '../assets/portfolioPagesContent/sole/img/vectors/waxing-combo-stories-s-2.png';
 
 function Sole(){
   return(
