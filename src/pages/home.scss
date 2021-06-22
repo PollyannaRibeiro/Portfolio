@@ -1,5 +1,7 @@
 $base-background-color:  rgb(250, 250, 250);
-$height-footer: 10rem;
+$height-footer: 5rem;
+  
+// BODY
 
 html {
   min-height: 100%;
@@ -7,10 +9,16 @@ html {
   body {
     position: relative;
     h1{
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: 400;
       padding-bottom: 1rem;
       padding-top: 1rem;
+    }
+
+    h3{
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding-bottom: 1rem;
     }
 
     p{
@@ -19,7 +27,7 @@ html {
       font-size: 1.2rem;
       text-align: justify;
       padding-left: 1rem;
-      padding-right: 2rem;
+      padding-right: 1rem;
     }
     
     .body-container{
@@ -32,6 +40,21 @@ html {
     }
   }
 }
+
+// RESPONSIVE
+
+.content-responsive-mobile{
+  @media screen and (min-width:721px){
+    display: none;
+  }
+}
+.content-responsive-computer{
+  @media screen and (max-width:720px){
+    display: none;
+  }
+}
+
+// HOME
 
 #personal-info{
   background-color: white;
@@ -71,8 +94,23 @@ html {
     }
   }
 }
-#projects-row{
+
+#about{
+  @media screen and (max-width:720px){
+    margin-top: 2rem;
+  }
+}
+#home-links{
+  @media screen and (max-width:720px){
+    display: none;
+  }
+}
+
+// DEV PROJECTS
+
+#dev-projects{
   background-color: $base-background-color;
+  padding: 1rem;
   #data-structures-project, #react-Projects, #web-development-projects, #pet-project{  
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -84,5 +122,213 @@ html {
       padding-left: 1rem;
       padding-right: 1rem;
     }
+
+    a{
+      float: right;
+      margin-right: 1rem;
+    }
+  }
+}
+
+// DESIGN PROJECTS
+
+#design-projects{
+  padding: 0 0.2rem;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: gray;
+  }
+
+  .portfolio-menu{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    margin: 1rem 0;
+
+    @media screen and (max-width: 720px) {
+      border-top: none;
+      border-bottom: none; 
+
+      img{
+        padding-top: 1rem;
+      }
+    }
+
+    .portfolio-items{
+      text-align: center;
+      color: black;
+
+      @media screen and (max-width: 720px){
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+      }
+    }
+
+    .portfolio-items-middle{
+      text-align: center;
+      border-left: 1px solid black;
+      border-right: 1px solid black;  
+      
+      @media screen and (max-width: 720px){
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-left: none;
+        border-right: none;
+      }
+    }
+
+    .cards-skill{
+      .card-img-top{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+}
+
+.sb-imgs{
+  #sb-homepage{
+    max-width: 50vh;
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+// DESIGN SKILLS
+
+
+
+// ethos
+
+#ethos-container{
+  .img-fluid{
+    margin: 0.3rem;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0, 0.2);
+  }
+}
+
+// sole
+
+#sole-beauty-container{
+  h3{
+    margin-top: 1rem;
+  }
+  .img-fluid{
+    margin: 0.1rem;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0, 0.1);
+  }
+}
+
+// freelance
+#freelance-container{
+  h3{
+    margin-top: 1rem;
+  }
+  .img-fluid{
+    margin: 0.3rem;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0, 0.2);
+  }
+  #lc-row::before{
+    content: '';
+    background-color: rgba(181, 181, 181, 0.1);
+    width: 100%;
+    height: 11%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 9%;
+    display: block;
+    box-sizing: border-box;
+    z-index: -1;
+    box-shadow: 4px 4px 2px -3px rgba(0,0,0, 0.1);
+  }
+}
+
+// Projects
+#projects-container{
+  #projects-row::before{
+    content: '';
+    background-color: rgba(181, 181, 181, 0.1);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 0;
+    display: block;
+    box-sizing: border-box;
+    z-index: -1;
+    box-shadow: 4px 4px 2px -3px rgba(0,0,0, 0.1);
+  }
+  #projects-content{
+    h1{
+      border-left: 5px solid  rgba(154, 154, 154, 0.2);
+      border-bottom: 2px solid  rgba(154, 154, 154, 0.2);
+      // box-shadow: 2px 2px 6px -2px rgba(0,0,0,0.1);
+    }
+  } 
+}
+
+// HEADER
+#header-container{
+  height: 80px;
+  padding-top: 10px;
+
+  @media screen and (max-width:720px){
+    height: 60px;
+  }
+}
+#header-menu-computer{
+  @media screen and (max-width:720px){
+    display: none;
+  }
+}
+
+// FOOTER
+
+#computer-footer{
+  @media screen and (max-width:720px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 721px) and (max-width:959px){
+  }
+
+  @media screen and (min-width: 721px) {
+    .nav{
+      margin: 0.2rem 0.2rem;
+    }
+    .nav-link{
+      padding: .5rem .2rem;
+    }
+    #copyright{
+      background-color: rgb(186, 186, 186);
+      color: black;
+      font-size: 1rem;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}
+
+#mobile-footer{
+  @media screen and (max-width:720px) {
+    text-align: center;
+    align-items: center;
+    .nav-link{
+      padding: 1rem 0.1rem;
+    }
+  }
+
+  @media screen and (min-width: 721px) {
+    display: none!important;
   }
 }
