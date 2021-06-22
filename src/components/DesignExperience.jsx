@@ -9,7 +9,6 @@ function DesignExperience(){
   return(
     <>
       <div className="container" id="design-projects"> {/* container */}
-
         <h1>Design Experience</h1>
         <p>I have experience in creating responsive and accessible websites (HTML, CSS, JS, React, Bootstrap, and Aria), 
           supporting/maintaining WordPress and Wix websites. Creating advertisement material for social media, google ads, 
@@ -28,7 +27,6 @@ function DesignExperience(){
           </Router>
         </div>
       </div> {/* end of container */}
-
     </>
   )
 }
